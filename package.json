@@ -1,0 +1,29 @@
+{
+  "name": "ChatRoom",
+  "version": "1.0.0",
+  "description": "简易聊天室,更新中",
+  "main": "model.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6",
+    "socket.io": "^2.0.3",
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gggoe/ChatRoom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gggoe/ChatRoom/issues"
+  },
+  "homepage": "https://github.com/gggoe/ChatRoom#readme"
+}
