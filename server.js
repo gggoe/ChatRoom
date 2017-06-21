@@ -3,6 +3,7 @@
  * express用来返回静态文件和动态路由
  * socket.io用来发送和接收消息
  **/
+console.log('服务器测试');
 let express = require('express');
 let Message = require('./model').Message;
 let app = express();
