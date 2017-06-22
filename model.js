@@ -8,8 +8,8 @@ mongoose.connect('mongodb://127.0.0.1/chat');
 let MessageSchema = new mongoose.Schema({
     username: String,
     content: String,
-    createAt: {type: String, default:new Date().toLocaleString()}
-    // createAt:{type:Date,default:Date.now}
+    // createAt: {type: String, default:new Date().toLocaleString()}
+    createAt:{type:Date,default:Date.now}
 });
 // 4. 定义模型
 exports.Message = mongoose.model('Message', MessageSchema);
