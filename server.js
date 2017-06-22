@@ -91,7 +91,7 @@ io.on('connection', function (socket) {
         })
     });
 });
-server.listen(8000);
+server.listen(6060);
 
 /*
  Socket.prototype.send = function(){
